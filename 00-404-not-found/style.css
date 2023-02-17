@@ -64,13 +64,21 @@ header {
 
 .btn {
   display: inline-block;
-  padding: 24px 43px;
+  padding: 22px 41px;
   background-color: var(--c-dark);
   color: var(--c-light);
+  border: 2px solid transparent;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--c-light);
+  color: var(--c-dark);
+  border: 2px solid var(--c-dark);
 }
 
 footer {
