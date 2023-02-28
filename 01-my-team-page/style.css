@@ -39,6 +39,19 @@ p {
   font-size: 14px;
 }
 
+header {
+  padding-top: 71px;
+  margin-bottom: 65px;
+}
+
+header h1 {
+  margin-bottom: 38px;
+}
+
+.who-description h2 {
+  margin-bottom: 10px;
+}
+
 .container {
   max-width: 1000px;
   padding-inline: 12px;
@@ -51,6 +64,7 @@ p {
   align-items: flex-start;
   column-gap: 24px;
   row-gap: 10px;
+  margin-bottom: 100px;
 }
 
 .item h3 {
@@ -61,6 +75,7 @@ p {
 .item-img {
   display: flex;
   gap: 6px;
+  margin-bottom: 10px;
 }
 
 .item-img img {
@@ -80,11 +95,36 @@ p {
   margin-top: 25%;
 }
 
+footer {
+  padding: 24px 0;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+footer a {
+  font-weight: 600;
+  color: inherit;
+}
+
 @media (width >= 48em) {
   p {
     max-width: 400px;
     font-size: 18px;
   }
+
+  header {
+    padding-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+  }
+
+  .who-description {
+    margin-right: 40px;
+  }
+
   .grid {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 65px;
